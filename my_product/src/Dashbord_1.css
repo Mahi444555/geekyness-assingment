@@ -1,0 +1,32 @@
+/* Base styles for the input container */
+.input-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Styles for the input field */
+  .search-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 100%;
+  }
+  
+  /* Styles for the clear icon */
+  .clear-icon {
+    position: relative;
+    top: 3px;
+    cursor: pointer;
+  }
+  
+  /* Media query for smaller screens (adjust as needed) */
+  @media (max-width: 768px) {
+    /* Example: Reduce padding and margin for smaller screens */
+    .search-input {
+      padding: 5px;
+      margin-right: 5px;
+    }
+  }
+  
